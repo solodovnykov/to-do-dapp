@@ -1,0 +1,29 @@
+.mainText {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 120px;
+  margin-bottom: 50px;
+
+  .mainTextWrapper {
+    display: flex;
+    gap: 12px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #e6e6e6;
+    margin: 0;
+
+    .emoji {
+      width: 24px;
+      height: 24px;
+      background-image: url("/catEmoji.png");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+}

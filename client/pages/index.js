@@ -1,5 +1,7 @@
 import Head from "next/head";
+import MainText from "../components/MainText/MainText";
 import Navbar from "../components/Navbar/Navbar";
+import TodoList from "../components/TodoList/TodoList";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
+      <MainText />
+      <TodoList />
     </div>
   );
 }

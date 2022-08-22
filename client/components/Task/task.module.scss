@@ -1,0 +1,42 @@
+.taskItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 0 0 6px;
+
+  .titleWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: white;
+    }
+
+    .title {
+      font-family: "SF Pro Text";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: -0.02em;
+      color: #d9d9d9;
+    }
+  }
+
+  .deleteButton {
+    padding: 2px;
+    cursor: pointer;
+
+    &:hover path {
+      fill: #c73d3d;
+      stroke: #c73d3d;
+    }
+  }
+}
