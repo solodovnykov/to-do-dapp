@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+
+  .iconsWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+    list-style: none;
+
+    .searchIcon {
+      width: 18px;
+      height: 18px;
+      background-image: url("/searchIcon.svg");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .notificationIcon {
+      @extend .searchIcon;
+      background-image: url("/notificationIcon.svg");
+    }
+  }
+}
