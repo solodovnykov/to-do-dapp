@@ -16,9 +16,22 @@ const TodoList = () => {
           </div>
         </form>
 
-        <ul className={styles.taskList}>
-          <Task />
-        </ul>
+        <div className={styles.taskListWrapper}>
+          <ul className={styles.taskList}>
+            <Task />
+            <Task />
+            <Task />
+            <Task />
+            <Task />
+            <Task />
+            <Task />
+            <Task />
+            <Task />
+            <Task />
+            <Task />
+            <Task />
+          </ul>
+        </div>
       </div>
     </div>
   );
